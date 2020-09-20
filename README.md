@@ -1,6 +1,6 @@
 # Cross-lingual MRC Benchmark
 
-A simple benchmark project to evaluate cross-lingual machine reading comprehension tasks on MLQA, XQuAD dataset. The backbone language model is based on XLM.
+A simple benchmark project to evaluate cross-lingual machine reading comprehension tasks on MLQA, XQuAD dataset. The backbone language model is based on Hugging Face's XLM.
 
 ## Requirements
 
