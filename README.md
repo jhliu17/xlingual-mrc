@@ -32,6 +32,6 @@ We evaluate the performance of our project on the MLQA dataset. The results comp
 
 
 ## To-do List
-- [] distributed training support
-- [] evaluation XQuAD
-- [] more backbone (MBERT, XLMR, etc.)
+- [ ] distributed training support
+- [ ] evaluation XQuAD
+- [ ] more backbone (MBERT, XLMR, etc.)
