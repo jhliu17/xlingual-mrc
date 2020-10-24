@@ -14,6 +14,16 @@ A simple benchmark project to evaluate cross-lingual machine reading comprehensi
 - [MLQA](https://github.com/facebookresearch/MLQA) (7 languages, dev and test)
 - [XQuAD](https://github.com/deepmind/xquad) (11 languages, test)
 
+## Run
+Train (the default parameter setting has been hardcoded in the `train.sh` file)
+```
+sh train.sh
+```
+Evaluate
+```
+sh eval.sh
+```
+
 
 ## Performance
 
