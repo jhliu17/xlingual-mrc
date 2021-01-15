@@ -1,6 +1,6 @@
 # Cross-lingual Machine Reading Comprehension
 
-A simple benchmark project to evaluate cross-lingual machine reading comprehension tasks on MLQA, XQuAD dataset. The backbone language model is based on Hugging Face's XLM.
+A benchmark project to evaluate cross-lingual machine reading comprehension tasks on MLQA, XQuAD dataset. The backbone language model is adopted from HuggingFace XLM.
 
 ## Requirements
 
