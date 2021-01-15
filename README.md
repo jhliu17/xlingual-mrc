@@ -1,11 +1,11 @@
-# Cross-lingual MRC Benchmark
+# Cross-lingual Machine Reading Comprehension
 
 A simple benchmark project to evaluate cross-lingual machine reading comprehension tasks on MLQA, XQuAD dataset. The backbone language model is based on Hugging Face's XLM.
 
 ## Requirements
 
-- pytorch>=1.4
-- transformers>=2.5.1
+- pytorch >= 1.4
+- transformers >= 2.5.1
 - jieba
 
 ## Dataset
@@ -15,7 +15,9 @@ A simple benchmark project to evaluate cross-lingual machine reading comprehensi
 - [XQuAD](https://github.com/deepmind/xquad) (11 languages, test)
 
 ## Run
+
 Train (the default parameter setting has been hardcoded in the `train.sh` file)
+
 ```
 sh train.sh
 ```
@@ -35,7 +37,16 @@ We evaluate the performance of our project on the MLQA dataset. The results comp
 | Ours| 63.4 / 77.4 | 49.7 / 68.2 | 48.6 / 63.7 | 37.6 / 57.0 | 37.0 / 54.3 | 42.4 / 63.5 | 36.9 / 60.0 |
 
 
-## To-do List
-- [ ] Distributed training support
-- [ ] XQuAD evaluation
-- [ ] More backbones (MBERT, XLMR, etc.)
+## Citation
+
+If you use our code in your work, please cite as:
+
+```
+@inproceedings{liu2020cross,
+  title={Cross-lingual Machine Reading Comprehension with Language Branch Knowledge Distillation},
+  author={Liu, Junhao and Shou, Linjun and Pei, Jian and Gong, Ming and Yang, Min and Jiang, Daxin},
+  booktitle={Proceedings of the 28th International Conference on Computational Linguistics},
+  pages={2710--2721},
+  year={2020}
+}
+```
