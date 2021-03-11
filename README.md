@@ -1,6 +1,7 @@
 # Cross-lingual Machine Reading Comprehension
 
-A benchmark project to evaluate cross-lingual machine reading comprehension tasks on MLQA, XQuAD dataset. The backbone language model is adopted from HuggingFace XLM.
+A benchmark project to evaluate cross-lingual machine reading comprehension tasks on MLQA and XQuAD datasets. The backbone language model is adopted from HuggingFace XLM.
+
 
 ## Requirements
 
@@ -8,11 +9,13 @@ A benchmark project to evaluate cross-lingual machine reading comprehension task
 - transformers >= 2.5.1
 - jieba
 
+
 ## Dataset
 
 - [SQuAD 1.1](https://github.com/rajpurkar/SQuAD-explorer/tree/master/dataset) (only in En, train and dev)
 - [MLQA](https://github.com/facebookresearch/MLQA) (7 languages, dev and test)
 - [XQuAD](https://github.com/deepmind/xquad) (11 languages, test)
+
 
 ## Run
 
@@ -21,6 +24,7 @@ Train (the default parameter setting has been hardcoded in the `train.sh` file)
 ```
 sh train.sh
 ```
+
 Evaluate
 ```
 sh eval.sh
