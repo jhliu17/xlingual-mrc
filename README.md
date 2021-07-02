@@ -5,12 +5,12 @@ A benchmark project to evaluate cross-lingual machine reading comprehension task
 
 ## Requirements
 
-- pytorch >= 1.4
+- PyTorch >= 1.4
 - transformers >= 2.5.1
 - jieba
 
 
-## Dataset
+## Datasets
 
 - [SQuAD 1.1](https://github.com/rajpurkar/SQuAD-explorer/tree/master/dataset) (only in En, train and dev)
 - [MLQA](https://github.com/facebookresearch/MLQA) (7 languages, dev and test)
@@ -19,7 +19,7 @@ A benchmark project to evaluate cross-lingual machine reading comprehension task
 
 ## Run
 
-Train (the default parameter setting has been hardcoded in the `train.sh` file)
+Train (the default parameter setting is hardcoded in the `train.sh` file)
 
 ```
 sh train.sh
@@ -33,7 +33,7 @@ sh eval.sh
 
 ## Performance
 
-We evaluate the performance of our project on the MLQA dataset. The results compared with the [original paper](https://arxiv.org/abs/1910.07475) are shown as bellow.
+We evaluate the performance on the MLQA dataset. The results compared with the [original paper](https://arxiv.org/abs/1910.07475) are shown as bellow.
 
 |  EM / F1 | En | Es | De | Ar | Hi | Vi | Zh |
 | --| --| --| --| --| --| --| --|
