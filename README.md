@@ -53,7 +53,7 @@ We evaluate the performance on the MLQA dataset. The results compared with the [
 
 If you use our code in your work, please cite as:
 
-```
+```bibtex
 @inproceedings{liu2020cross,
   title={Cross-lingual Machine Reading Comprehension with Language Branch Knowledge Distillation},
   author={Liu, Junhao and Shou, Linjun and Pei, Jian and Gong, Ming and Yang, Min and Jiang, Daxin},
